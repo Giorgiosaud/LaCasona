@@ -14,7 +14,7 @@ elixir.config.publicPath='compiled';
 
  elixir(function(mix) {
  	mix.stylus('app.styl','resources/assets/css')
-	.styles(['app.css'],'compiled/css/child.css')
- 	.version(['css/child.css']);
+	.styles(['app.css'],'compiled/css/main.css')
+ 	.version(['css/main.css']);
  });
 
